@@ -1,0 +1,8 @@
+
+{
+  "name": "Ingres Groundwater Chatbot",
+  "description": "An interactive, multilingual, and voice-enabled chatbot for analyzing and predicting groundwater levels. It provides data visualizations and actionable conservation suggestions.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

@@ -1,0 +1,35 @@
+
+import { GroundwaterData } from '../types';
+
+export const groundwaterData: GroundwaterData[] = [
+    { State: "Tamil Nadu", District: "Chennai", Year: 2020, Recharge_MCM: 120, WaterLevel_m: 8.2, Rainfall_mm: 1050, Soil_type: "Sandy Clay", Annual_Extractable_GW_HAM: 9800, Status: "Safe" },
+    { State: "Tamil Nadu", District: "Chennai", Year: 2021, Recharge_MCM: 115, WaterLevel_m: 8.8, Rainfall_mm: 960, Soil_type: "Sandy Clay", Annual_Extractable_GW_HAM: 9700, Status: "Semi-Critical" },
+    { State: "Tamil Nadu", District: "Chennai", Year: 2022, Recharge_MCM: 110, WaterLevel_m: 9.5, Rainfall_mm: 870, Soil_type: "Sandy Clay", Annual_Extractable_GW_HAM: 9500, Status: "Critical" },
+    { State: "Tamil Nadu", District: "Kanchipuram", Year: 2020, Recharge_MCM: 140, WaterLevel_m: 7.8, Rainfall_mm: 1120, Soil_type: "Clay Loam", Annual_Extractable_GW_HAM: 12000, Status: "Safe" },
+    { State: "Tamil Nadu", District: "Kanchipuram", Year: 2021, Recharge_MCM: 135, WaterLevel_m: 8.5, Rainfall_mm: 1010, Soil_type: "Clay Loam", Annual_Extractable_GW_HAM: 11800, Status: "Semi-Critical" },
+    { State: "Tamil Nadu", District: "Kanchipuram", Year: 2022, Recharge_MCM: 128, WaterLevel_m: 9.0, Rainfall_mm: 920, Soil_type: "Clay Loam", Annual_Extractable_GW_HAM: 11600, Status: "Critical" },
+    { State: "Tamil Nadu", District: "Madurai", Year: 2020, Recharge_MCM: 150, WaterLevel_m: 6.5, Rainfall_mm: 890, Soil_type: "Red Loam", Annual_Extractable_GW_HAM: 12500, Status: "Safe" },
+    { State: "Tamil Nadu", District: "Madurai", Year: 2021, Recharge_MCM: 142, WaterLevel_m: 7.2, Rainfall_mm: 820, Soil_type: "Red Loam", Annual_Extractable_GW_HAM: 12200, Status: "Semi-Critical" },
+    { State: "Tamil Nadu", District: "Madurai", Year: 2022, Recharge_MCM: 135, WaterLevel_m: 7.9, Rainfall_mm: 750, Soil_type: "Red Loam", Annual_Extractable_GW_HAM: 12000, Status: "Critical" },
+    { State: "Tamil Nadu", District: "Thiruvallur", Year: 2020, Recharge_MCM: 130, WaterLevel_m: 8.0, Rainfall_mm: 1080, Soil_type: "Alluvial", Annual_Extractable_GW_HAM: 11000, Status: "Safe" },
+    { State: "Tamil Nadu", District: "Thiruvallur", Year: 2021, Recharge_MCM: 125, WaterLevel_m: 8.7, Rainfall_mm: 970, Soil_type: "Alluvial", Annual_Extractable_GW_HAM: 10850, Status: "Semi-Critical" },
+    { State: "Tamil Nadu", District: "Thiruvallur", Year: 2022, Recharge_MCM: 118, WaterLevel_m: 9.3, Rainfall_mm: 880, Soil_type: "Alluvial", Annual_Extractable_GW_HAM: 10700, Status: "Critical" },
+    { State: "Tamil Nadu", District: "Ariyalur", Year: 2020, Recharge_MCM: 145, WaterLevel_m: 7.0, Rainfall_mm: 950, Soil_type: "Black Cotton", Annual_Extractable_GW_HAM: 11500, Status: "Safe" },
+    { State: "Tamil Nadu", District: "Ariyalur", Year: 2021, Recharge_MCM: 138, WaterLevel_m: 7.8, Rainfall_mm: 860, Soil_type: "Black Cotton", Annual_Extractable_GW_HAM: 11350, Status: "Semi-Critical" },
+    { State: "Tamil Nadu", District: "Ariyalur", Year: 2022, Recharge_MCM: 130, WaterLevel_m: 8.4, Rainfall_mm: 780, Soil_type: "Black Cotton", Annual_Extractable_GW_HAM: 11200, Status: "Critical" },
+    { State: "Tamil Nadu", District: "Ariyalur", Year: 2023, Recharge_MCM: 123, WaterLevel_m: 9.2, Rainfall_mm: 722, Soil_type: "Black Cotton", Annual_Extractable_GW_HAM: 11011, Status: "Critical" },
+    { State: "Tamil Nadu", District: "Ariyalur", Year: 2024, Recharge_MCM: 115, WaterLevel_m: 9.8, Rainfall_mm: 661, Soil_type: "Black Cotton", Annual_Extractable_GW_HAM: 10887, Status: "Critical" },
+    { State: "Tamil Nadu", District: "Ariyalur", Year: 2025, Recharge_MCM: 110, WaterLevel_m: 10.4, Rainfall_mm: 615, Soil_type: "Black Cotton", Annual_Extractable_GW_HAM: 10718, Status: "Critical" },
+    { State: "Tamil Nadu", District: "Chennai", Year: 2023, Recharge_MCM: 101, WaterLevel_m: 10.2, Rainfall_mm: 794, Soil_type: "Sandy Clay", Annual_Extractable_GW_HAM: 9355, Status: "Critical" },
+    { State: "Tamil Nadu", District: "Chennai", Year: 2024, Recharge_MCM: 92, WaterLevel_m: 10.7, Rainfall_mm: 743, Soil_type: "Sandy Clay", Annual_Extractable_GW_HAM: 9239, Status: "Critical" },
+    { State: "Tamil Nadu", District: "Chennai", Year: 2025, Recharge_MCM: 83, WaterLevel_m: 11.3, Rainfall_mm: 698, Soil_type: "Sandy Clay", Annual_Extractable_GW_HAM: 9094, Status: "Critical" },
+    { State: "Tamil Nadu", District: "Kanchipuram", Year: 2023, Recharge_MCM: 120, WaterLevel_m: 9.9, Rainfall_mm: 854, Soil_type: "Clay Loam", Annual_Extractable_GW_HAM: 11420, Status: "Critical" },
+    { State: "Tamil Nadu", District: "Kanchipuram", Year: 2024, Recharge_MCM: 112, WaterLevel_m: 10.7, Rainfall_mm: 784, Soil_type: "Clay Loam", Annual_Extractable_GW_HAM: 11302, Status: "Critical" },
+    { State: "Tamil Nadu", District: "Kanchipuram", Year: 2025, Recharge_MCM: 107, WaterLevel_m: 11.7, Rainfall_mm: 739, Soil_type: "Clay Loam", Annual_Extractable_GW_HAM: 11187, Status: "Critical" },
+    { State: "Tamil Nadu", District: "Madurai", Year: 2023, Recharge_MCM: 130, WaterLevel_m: 8.5, Rainfall_mm: 699, Soil_type: "Red Loam", Annual_Extractable_GW_HAM: 11893, Status: "Semi-Critical" },
+    { State: "Tamil Nadu", District: "Madurai", Year: 2024, Recharge_MCM: 124, WaterLevel_m: 9.3, Rainfall_mm: 628, Soil_type: "Red Loam", Annual_Extractable_GW_HAM: 11777, Status: "Critical" },
+    { State: "Tamil Nadu", District: "Madurai", Year: 2025, Recharge_MCM: 116, WaterLevel_m: 10.2, Rainfall_mm: 583, Soil_type: "Red Loam", Annual_Extractable_GW_HAM: 11615, Status: "Critical" },
+    { State: "Tamil Nadu", District: "Thiruvallur", Year: 2023, Recharge_MCM: 110, WaterLevel_m: 10.2, Rainfall_mm: 826, Soil_type: "Alluvial", Annual_Extractable_GW_HAM: 10543, Status: "Critical" },
+    { State: "Tamil Nadu", District: "Thiruvallur", Year: 2024, Recharge_MCM: 101, WaterLevel_m: 10.9, Rainfall_mm: 771, Soil_type: "Alluvial", Annual_Extractable_GW_HAM: 10399, Status: "Critical" },
+    { State: "Tamil Nadu", District: "Thiruvallur", Year: 2025, Recharge_MCM: 95, WaterLevel_m: 11.8, Rainfall_mm: 709, Soil_type: "Alluvial", Annual_Extractable_GW_HAM: 10259, Status: "Critical" }
+];
